@@ -1,4 +1,4 @@
-// Copyright 2020-2023 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 pub mod graph;
 pub mod swc;

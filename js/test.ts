@@ -1,4 +1,4 @@
-// Copyright 2018-2024 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 import { assert, assertEquals, assertRejects } from "jsr:@std/assert@0.223";
 import { doc, generateHtml, generateHtmlAsJSON } from "./mod.ts";

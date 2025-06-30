@@ -1,4 +1,4 @@
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 /// <reference no-default-lib="true" />
 /// <reference lib="esnext" />
@@ -2417,7 +2417,7 @@ declare namespace Deno {
   export function serveHttp(conn: Conn): HttpConn;
 }
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -2446,7 +2446,7 @@ declare interface Console {
   warn(...data: any[]): void;
 }
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -2621,7 +2621,7 @@ declare class URL {
   toJSON(): string;
 }
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -3374,7 +3374,7 @@ declare function structuredClone(
   options?: StructuredSerializeOptions,
 ): any;
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -3812,7 +3812,7 @@ declare function fetch(
   init?: RequestInit,
 ): Promise<Response>;
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any no-empty-interface
 
@@ -4944,7 +4944,7 @@ declare interface GPUExtent3DDict {
 
 declare type GPUExtent3D = number[] | GPUExtent3DDict;
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -5057,7 +5057,7 @@ declare class WebSocket extends EventTarget {
 
 type BinaryType = "arraybuffer" | "blob";
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -5100,7 +5100,7 @@ declare var Storage: {
   new (): Storage;
 };
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 /// <reference no-default-lib="true" />
 /// <reference lib="esnext" />
@@ -5256,7 +5256,7 @@ declare var SubtleCrypto: {
   new (): SubtleCrypto;
 };
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // deno-lint-ignore-file no-explicit-any
 
@@ -5312,7 +5312,7 @@ declare var BroadcastChannel: {
   new (name: string): BroadcastChannel;
 };
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 /// <reference no-default-lib="true" />
 /// <reference lib="esnext" />
@@ -5463,7 +5463,7 @@ declare namespace Deno {
   export function shutdown(rid: number): Promise<void>;
 }
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 // Documentation partially adapted from [MDN](https://developer.mozilla.org/),
 // by Mozilla Contributors, which is licensed under CC-BY-SA 2.5.
@@ -6018,7 +6018,7 @@ interface ErrorConstructor {
   // internally in a way that makes it unavailable for users.
 }
 
-// Copyright 2018-2022 the Deno authors. All rights reserved. MIT license.
+// Copyright 2018-2025 the Deno authors. All rights reserved. MIT license.
 
 /// <reference no-default-lib="true" />
 /// <reference lib="deno.ns" />
